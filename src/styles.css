@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/ngx-lumin-sdk/styles/styles.css";
+
+::ngdeep.mat-chip:not(.mat-basic-chip) {
+    display: flex !important;
+    padding: 8px 12px 8px 12px;
+    border-radius: 24px;
+    font-size: 13px;
+    line-height: 16px;
+}
+.mat-chip.mat-standard-chip {
+    background-color: #e0e0e0;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex ;
+}
+
+::ng-deep .mat-select-panel {
+    max-height: 80vh !important;
+  }
+  .mat-select {
+    height: 50px!important;
+  }
+  .pb-96 {
+    padding-bottom: 0px !important;
+  }
