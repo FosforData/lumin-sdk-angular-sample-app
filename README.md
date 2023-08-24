@@ -250,10 +250,10 @@ You can integrate Workspace capability with your app easily as shown. Below are 
 ***app.component.html***
 ```bash
 <Workspace
-             height={500}
-             publishedStoriesRequired={true}
-             sharedWithMeStoriesRequired={true}
-             viewSingleStory={false}
+             height=500
+             publishedStoriesRequired=true
+             sharedWithMeStoriesRequired=true
+             viewSingleStory=false
          />
 
 ```
@@ -270,10 +270,10 @@ You can integrate Nudges capability with your app easily as shown. Below are few
 ***app.component.html***
 ```bash
 <Nudges
-             height={600}
-             topNudgesRequired={true}
-             allNudgesRequired={false}
-             topNudgesLimit={5}
+             height=600
+             topNudgesRequired=true
+             allNudgesRequired=false
+             topNudgesLimit=5
          />
 ```
 ## Documentation
